@@ -1,0 +1,28 @@
+{
+  "name": "notes_app_server",
+  "version": "1.0.0",
+  "description": "A Notes application, server part",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edkaresli/notes_app_server.git"
+  },
+  "author": "Eduard Karesli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edkaresli/notes_app_server/issues"
+  },
+  "homepage": "https://github.com/edkaresli/notes_app_server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
